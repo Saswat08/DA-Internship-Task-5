@@ -61,12 +61,15 @@ o	Fare distribution is highly right-skewed (majority paid low fare, few paid ver
 •	Countplots for categorical variables (Survived, Pclass, Sex, Embarked):
 
 o	Pclass:
+
 	Class 3 had the highest number of passengers.
 
 o	Sex:
+
 	More males than females in the dataset.
 
 o	Embarked:
+
 	Most passengers embarked from port 'S' (Southampton).
 
 ## 7. Bivariate Analysis (Relationships with Survived)
@@ -78,9 +81,11 @@ o	Survival rate decreases as the class number increases.
 o	1st class passengers had the highest survival rate.
 
 •	Sex vs Survived:
+
 o	Females had a significantly higher survival rate than males.
 
 •	Embarked vs Survived:
+
 o	Passengers who embarked at 'C' (Cherbourg) had a higher survival rate compared to 'S' and 'Q'.
 
 ## 8. Multivariate Visualization
@@ -88,5 +93,7 @@ o	Passengers who embarked at 'C' (Cherbourg) had a higher survival rate compared
 •	Heatmap of Correlations (not shown fully but implied):
 
 o	Strong correlations noted:
+
 	Fare positively correlated with Pclass.
+
 	Survived correlated with Sex and Pclass.
